@@ -1,3 +1,9 @@
+// Problem: Largest Rectangle in Histogram
+// LeetCode: 84
+// Approach: Brute Force (Improved)
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+// Note: This solution may give TLE on LeetCode due to O(n^2) time complexity.
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
